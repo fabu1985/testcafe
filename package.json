@@ -1,0 +1,12 @@
+{
+  "name": "test-cafe-poc",
+  "version": "0.1.0",
+  "description": "Basic TestCafe API example",
+  "license": "MIT",
+  "scripts": {
+    "test": "testcafe chrome \"tests/**/*.js\""
+  },
+  "devDependencies": {
+    "testcafe": "*"
+  }
+}
