@@ -7,7 +7,7 @@ export default class SearchResultsPage {
     constructor() {
     }
 
-    async getsext(){
+    async getSeleniumText(){
         return Selector(this.linkselenium).textContent
     }
 }
